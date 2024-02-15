@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 
 const listingSchema = new mongoose.Schema({
-    name: {
+    title: {
         type: String,
         required: true,
     },
@@ -13,7 +13,7 @@ const listingSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    regualarPrice: {
+    regularPrice: {
         type: Number,
         required: true,
     },
